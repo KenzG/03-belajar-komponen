@@ -10,7 +10,7 @@ export default function Profile() {
             style={{
                 maxWidth: "100%",
                 height: "auto",
-                margin: "13px"
+                display: "block",
             }}
         />
     );

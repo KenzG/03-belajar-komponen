@@ -1,5 +1,6 @@
 import { Gallery } from "@/components/gallery";
 import Bio from "@/components/bio";
+import TodoList from "@/components/todolist";
 
 export default function Home() {
   return (
@@ -13,6 +14,13 @@ export default function Home() {
       <section className="w-full max-w-2xl">
         <h2 className="text-2xl font-hold text-center mb-6">My Bio</h2>
         <Bio />
+        <br></br>
+      </section>
+      <hr className="w-full max-w-md border-zinc-300 mb-12"/>
+
+      <section className="w-full max-w-2xl">
+        <h2 className="text-2xl font-bold text-center mb-6 text-black dark:text-white">Todo List</h2>
+        <TodoList />
       </section>
     </main>
   );

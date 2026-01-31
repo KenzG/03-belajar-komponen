@@ -40,7 +40,7 @@ Dalam soal nomor 2 ini mempelajari 3 konsep fundamental dalam pengembangan React
 ![Hasil Soal 3](./assets/web-test-add-bio.png)
 
 ## Pelajaran
-Pada soal 3 menunjukkan error pada bagian elemen "<p class="summary">" dan hal ini juga termasuk elemen "<div>",
+Pada soal 3 menunjukkan error pada bagian elemen "(p class="summary")" dan hal ini juga termasuk elemen "(div)",
 solusinya adalah yaitu dengan menambahkan Fragment "<>" di awal setelah "return". Adapun artibut yang salah yaitu
 kata "class" yang di mana ini reserved word, solusinya yaitu mengubahnya menjadi "className=" sesuai standar DOM.
-Kemudian bagian "<br><br>" disini juga terdapat error karena tidak ditutup, maka diubah menjadi "<br> </br>"
+Kemudian bagian "(br br ) disini juga terdapat error karena tidak ditutup, maka diubah menjadi "(br /br)"

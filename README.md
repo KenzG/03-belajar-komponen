@@ -63,4 +63,4 @@ Dalam soal kali ini kita diminta untuk melakukan ekstrak data dengan memindahaka
 Yang awalnya menggunakan, src="(link image"), kemudian dengan dirubah menjadi lebih dinamis dan rapi, src={person.imageUrl}
 
 Mengenai perbedaan tampilan Web? 
-Tidak ada yang berubah, dan tetap sama, hanya saja penulisan kode yang awalnya statis menjadi dinamis. Dan hal ini membuat kode menjadi lebih modular, jika kedepannya ingin mengganti foto tersebut maka hanya perlu mengubah nilai di dalam objek person.
+Tidak ada yang berubah, dan tetap sama, hanya saja penulisan kode yang awalnya statis menjadi dinamis. Dan hal ini membuat kode menjadi lebih modular, jika kedepannya ingin mengganti foto tersebut maka hanya perlu mengubah nilai di dalam objek person. 

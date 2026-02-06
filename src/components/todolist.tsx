@@ -16,7 +16,7 @@ export default function TodoList() {
             <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
-                src={'${baseUrl}${person,imageId}${person,imageSize}.png'}
+                src={`${baseUrl}${person.imageId}${person.imageSize}.png`}
                 alt={person.name}
             />
             <ul>

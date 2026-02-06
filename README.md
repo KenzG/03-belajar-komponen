@@ -54,3 +54,14 @@ dikarenakan variabel person didefinisikan sebagai Object JavaScript yang berisi 
 
 Mengapa terjadi eror dikarenakan yang dibaca seharusnya adalah Objek bukan Teks, dikarenakan ({*person*}) disini adalah kumpulan data (nama, id, tema)
 Jadi solusinya adalah mengubahnya menjadi (<*h1>{person.name}'s Todos</*h1>)
+
+## Laporan Praktikum - Soal 5
+
+## Hasil dari Paktikum
+![Hasil Soal 4](./assets/before_extract_imgURL.png)
+![Hasil Soal 4](./assets/after_extract_imgURL.png)
+Dalam soal kali ini kita diminta untuk melakukan ekstrak data dengan memindahakan string URL gambar yang awalnya langsung di dalam atribut src pada tag img ke dalam objek person. 
+Yang awalnya menggunakan, src="(link image"), kemudian dengan dirubah menjadi lebih dinamis dan rapi, src={person.imageUrl}
+
+Mengenai perbedaan tampilan Web? 
+Tidak ada yang berubah, dan tetap sama, hanya saja penulisan kode yang awalnya statis menjadi dinamis. Dan hal ini membuat kode menjadi lebih modular, jika kedepannya ingin mengganti foto tersebut maka hanya perlu mengubah nilai di dalam objek person.

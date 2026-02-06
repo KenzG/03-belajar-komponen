@@ -1,6 +1,6 @@
 const person = {
     name: 'Ying Ling Lui',
-    imageUrl: 'httpshttps://imgur.com/l5wCajX.png',
+    imageUrl: 'https://imgur.com/l5wCajX.png',
     theme: {
         backgroundColor: 'black',
         color: 'white'
@@ -13,7 +13,7 @@ export default function TodoList() {
             <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
-                src="https://imgur.com/l5wCajX.png"
+                src={person.imageUrl}
                 alt={person.name}
             />
             <ul>

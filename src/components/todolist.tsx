@@ -1,5 +1,8 @@
+const baseUrl = 'https://i.imgur.com/'
 const person = {
     name: 'Ying Ling Lui',
+    imageId: 'l5wCajX',
+    imageSize: 's',
     imageUrl: 'https://imgur.com/l5wCajX.png',
     theme: {
         backgroundColor: 'black',
@@ -13,7 +16,7 @@ export default function TodoList() {
             <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
-                src={person.imageUrl}
+                src={'${baseUrl}${person,imageId}${person,imageSize}.png'}
                 alt={person.name}
             />
             <ul>

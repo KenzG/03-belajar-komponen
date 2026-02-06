@@ -1,8 +1,8 @@
-const baseUrl = 'https://i.imgur.com/'
+const baseUrl = 'https://i.imgur.com/';
 const person = {
     name: 'Ying Ling Lui',
     imageId: 'l5wCajX',
-    imageSize: 's',
+    imageSize: 'b',
     imageUrl: 'https://imgur.com/l5wCajX.png',
     theme: {
         backgroundColor: 'black',

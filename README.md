@@ -60,6 +60,7 @@ Jadi solusinya adalah mengubahnya menjadi (<*h1>{person.name}'s Todos</*h1>)
 ## Hasil dari Paktikum
 ![Hasil Soal 5](./assets/before_extract_imgURL.png)
 ![Hasil Soal 5](./assets/after_extract_imgURL.png)
+<br>
 Dalam soal kali ini kita diminta untuk melakukan ekstrak data dengan memindahakan string URL gambar yang awalnya langsung di dalam atribut src pada tag img ke dalam objek person. 
 <br>
 Yang awalnya menggunakan, src="(link image"), kemudian dengan dirubah menjadi lebih dinamis dan rapi, src={person.imageUrl}

@@ -2,6 +2,7 @@ import { Gallery } from "@/components/gallery";
 import Bio from "@/components/bio";
 import TodoList from "@/components/todolist";
 import Profile from "@/components/avatar";
+import MyGallery from "@/components/mygallery"
 
 export default function Home() {
   return (
@@ -9,6 +10,12 @@ export default function Home() {
       <section className="w-full max-w-2xl mb-12">
         <h2 className="text-2xl font-bold text-center mb-4">Avatar</h2>
         <Profile />
+      </section>
+      <hr className="w-full max-w-md border-zinc-300 mb-12"/>
+      
+      <section className="w-full max-w-2xl mb-12">
+        <h2 className="text-2xl font-bold text-center mb-4">Notable Scientists</h2>
+        <MyGallery />
       </section>
       <hr className="w-full max-w-md border-zinc-300 mb-12"/>
       

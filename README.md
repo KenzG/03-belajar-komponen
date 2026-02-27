@@ -80,3 +80,13 @@ Pada base kode, di sini ditambahkan const baseUrl, dan juga penambahan dalam con
 Kemudian perbaikan pada bagian src="{baseUrl}{person.imageId}{person.imageSize}.jpg" , menjadi src={'${baseUrl}${person,imageId}${person,imageSize}.png'}
 <br>
 Yang di mana perbaikan tersebut dengan menggabungkan beberapa variabel JavaScript (baseUrl, imageId, imageSize) menjadi satu string URL.
+
+## Laporan Praktikum - Soal 7
+
+## Hasil dari Praktikum
+![Hasil Soal 7](./assets/alter_extraction_from_myprofle.png)
+<br>
+Soal 7 ini yang dapat dipelajari adalah bagaimana cara mentransfer informasi dari komponen lain, yaitu disini dari induk (MyGallery) ke komponen child (MyProfile)
+dengan menggunakan Props, menjadi sangat efektif untuk mengurangi duplikat markup yang sama.
+Untuk tampilan saat ini lebih terorganizir rapi dengan bounding box, dan kode yang digunakan juga lebih ringkas dan tetap lengkap
+Dan untuk error sendiri yang dihadapi adalah perlu mendefinisikan interface untuk props agar data yang dikirim tervalidasi dan tidak menyebabkan error "Binding Element"

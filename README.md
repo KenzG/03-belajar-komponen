@@ -88,5 +88,7 @@ Yang di mana perbaikan tersebut dengan menggabungkan beberapa variabel JavaScrip
 <br>
 Soal 7 ini yang dapat dipelajari adalah bagaimana cara mentransfer informasi dari komponen lain, yaitu disini dari induk (MyGallery) ke komponen child (MyProfile)
 dengan menggunakan Props, menjadi sangat efektif untuk mengurangi duplikat markup yang sama.
-Untuk tampilan saat ini lebih terorganizir rapi dengan bounding box, dan kode yang digunakan juga lebih ringkas dan tetap lengkap
+<br>
+Untuk tampilan saat ini lebih terorganizir rapi dengan bounding box, dan kode yang digunakan juga lebih ringkas dan tetap lengkap.
+<br>
 Dan untuk error sendiri yang dihadapi adalah perlu mendefinisikan interface untuk props agar data yang dikirim tervalidasi dan tidak menyebabkan error "Binding Element"

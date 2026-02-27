@@ -10,7 +10,7 @@ function Avatar({ person, size }: { person: Person; size: number }) {
         <div className="flex flex-col items-center gap-2"> 
             <img
                 className="avatar rounded-full border-1 border-zinc-200"
-                src={getImageUrl(person)}
+                src={getImageUrl(person, size)}
                 alt={person.name} 
                 width={size}
                 height={size}
@@ -26,21 +26,21 @@ export default function Profile() {
     return (
         <div className="flex justify-center gap-8"> 
             <Avatar 
-                size={100}
+                size={80}
                 person={{
                     name: 'Jack Cooper',
                     imageId: 'XmhgzOX'
                 }}
             />
             <Avatar
-                size={100}
+                size={80}
                 person={{
                     name: 'Kuben Blisk',
                     imageId: 'HRmGv0a'
                 }}
             />
             <Avatar 
-                size={100}
+                size={80}
                 person={{
                     name: 'VIPER',
                     imageId: 'k3e2iXb'

@@ -92,3 +92,14 @@ dengan menggunakan Props, menjadi sangat efektif untuk mengurangi duplikat marku
 Untuk tampilan saat ini lebih terorganizir rapi dengan bounding box, dan kode yang digunakan juga lebih ringkas dan tetap lengkap.
 <br>
 Dan untuk error sendiri yang dihadapi adalah perlu mendefinisikan interface untuk props agar data yang dikirim tervalidasi dan tidak menyebabkan error "Binding Element"
+
+## Laporan Praktikum - Soal 8
+![Hasil Soal 9](./assets/utils_improvement.png)
+![Hasil Soal 9](./assets/avatar_customization_size.png)
+<br>
+Pada soal 8 dapat dipelajari bagaimana cara melakukan optimasi gambar secara dinamis dengan mengirimkan parameter ukuran ke fungsi utility.
+<br>
+Maka hasilnya adalah aplikasi dapat memilih resolusi gambar yang tepat dari server berdasarkan nilai props yang diberikan, sehingga meningkatakan kualitas visual dan efisiensi performa
+<br>
+Hasilnya sebagai berikut untuk bagian Avatar, dan terdapat tambahan untuk bagian "Notable Scientists" kaitannya dengan soal 7
+![Hasil Soal](./assets/avatar_results_and_notable.png)

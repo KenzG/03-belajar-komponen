@@ -13,6 +13,15 @@ export default function MyGallery() {
                 awardsList="Physics Noble Award, Teleportation Device Award"
                 discovery="Alternate Time Travel Device"
             />
+
+            <MyProfile
+                name="Reene Blasey"
+                imageId="fwckz7H"
+                profession="Senior Scientist Pilot"
+                awardsCount={2}
+                awardsList="Phase Tech Award, Temporal Portal Device Award"
+                discovery="Portal Device"
+            />
         </div>
     )
 }

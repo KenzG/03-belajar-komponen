@@ -73,6 +73,7 @@ Tidak ada yang berubah, dan tetap sama, hanya saja penulisan kode yang awalnya s
 ## Hasil dari Praktikum
 ![Hasil Soal 6](./assets/before_add_more_strings.png)
 ![Hasil Soal 6](./assets/after_add_more_strings.png)
+<br>
 Dalam soal ini diminta untuk memperbaiki kode pada atribut src.
 Pada base kode, di sini ditambahkan const baseUrl, dan juga penambahan dalam const person yaitu imageId dan imageSize.
 

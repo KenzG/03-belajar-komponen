@@ -94,12 +94,23 @@ Untuk tampilan saat ini lebih terorganizir rapi dengan bounding box, dan kode ya
 Dan untuk error sendiri yang dihadapi adalah perlu mendefinisikan interface untuk props agar data yang dikirim tervalidasi dan tidak menyebabkan error "Binding Element"
 
 ## Laporan Praktikum - Soal 8
-![Hasil Soal 9](./assets/utils_improvement.png)
-![Hasil Soal 9](./assets/avatar_customization_size.png)
+
+## Hasil dari Praktikum
+![Hasil Soal 8](./assets/utils_improvement.png)
+![Hasil Soal 8](./assets/avatar_customization_size.png)
 <br>
-Pada soal 8 dapat dipelajari bagaimana cara melakukan optimasi gambar secara dinamis dengan mengirimkan parameter ukuran ke fungsi utility.
-<br>
-Maka hasilnya adalah aplikasi dapat memilih resolusi gambar yang tepat dari server berdasarkan nilai props yang diberikan, sehingga meningkatakan kualitas visual dan efisiensi performa
-<br>
+Pada soal 8 dapat dipelajari bagaimana cara melakukan optimasi gambar secara dinamis dengan mengirimkan parameter ukuran ke fungsi utility. <br>
+Maka hasilnya adalah aplikasi dapat memilih resolusi gambar yang tepat dari server berdasarkan nilai props yang diberikan, sehingga meningkatakan kualitas visual dan efisiensi performa. <br>
 Hasilnya sebagai berikut untuk bagian Avatar, dan terdapat tambahan untuk bagian "Notable Scientists" kaitannya dengan soal 7
-![Hasil Soal](./assets/avatar_results_and_notable.png)
+![Hasil Soal 8](./assets/avatar_results_and_notable.png)
+
+## Laporan Praktikum - Soal 9
+
+## Hasil dari Praktikum
+![Hasil Soal 9](./assets/props_card.png)
+![Hasil Soal 9](./assets/props_myprofilev2.png)
+Di soal 9 ini dengan implementasi card.tsx dan myprofilev2.tsx yang dapat dipelajari adalah teknik Component Nesting melalui properti children. <br>
+Di sini akhirnya dapat memisahkan antara komponen <italic>styling<italic> kontainer Card dengan komponen konten MyProfileV2. <br>
+Dan di akhir penjelasan adalah sangat efektif untuk membangun sistem UI yang konsisten dan mudah untuk dirawat .<br>
+Dan hasilnya sebagai berikut
+![Hasil Soal 9](./assets/props_children_results.png)

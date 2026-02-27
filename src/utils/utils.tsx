@@ -1,4 +1,4 @@
-export function getImageUrl(person: { name?: string; imageId: any; }, size: number) {
+export function getImageUrl(person: { name?: string, imageId: string }, size: number) {
   const sizeThumbnail = size < 90 ? 's' : 'b';
 
   return (

@@ -16,7 +16,7 @@ export default function MyProfile({ name, imageId, profession, awardsCount, awar
             
             <img
                 className="avatar rounded-full"
-                src={getImageUrl({ imageId })} 
+                src={getImageUrl({ imageId }, 100)} 
                 alt={name}
                 width={100}
                 height={100}

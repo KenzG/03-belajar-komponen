@@ -114,3 +114,9 @@ Di sini akhirnya dapat memisahkan antara komponen <italic>styling<italic> kontai
 Dan di akhir penjelasan adalah sangat efektif untuk membangun sistem UI yang konsisten dan mudah untuk dirawat .<br>
 Dan hasilnya sebagai berikut
 ![Hasil Soal 9](./assets/props_children_results.png)
+
+## Laporan Praktikum - Soal 10
+
+## Hasil dari Praktikum
+![Hasil Soal 10](./assets/first_deploy_db_vercel.png)
+Pada soal 10 (dari Modul 3) di sini sudah berhasil melakukan Deploy Project di Vercel. <br>

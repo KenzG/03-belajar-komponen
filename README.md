@@ -138,11 +138,10 @@ Dan di akhir setelah DB dibuat isi pada Env Variables sebagai berikut
 Pada soal ini mempelajari proses Database Seeding, pengisian data awal ke dalam database cloud yaitu Neon/Postgres dengan menggunakan skrip Node.js <br>
 Dalam hal ini juga diperlukan data.js dan seed.js yang berada pada folder src/seeder. Jika belum ada maka dibuat terlebih dahulu <br>
 Di sini juga saya menggunakan data dari Praktikum yang sudah di buat, sebagai contoh: <br>
-- data.js berisikan sebagai berikut:
+- data.js berisikan sebagai berikut: <br>
 ![Hasil Soal 12](./assets/data_file.png)
-- seed.js berisikan sebagai berikut: (berisikan untuk membuat table dua tokoh scientist)
+- seed.js berisikan sebagai berikut: (berisikan untuk membuat table dua tokoh scientist) <br>
 ![Hasil Soal 12](./assets/seed_file.png)
-<br>
 Di sini juga saya menggunakan uuid untuk melakukan generate unique ID untuk tiap orang (npm install uuid)
 
 ## Laporan Praktikum - Soal 13

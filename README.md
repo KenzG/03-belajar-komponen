@@ -120,3 +120,35 @@ Dan hasilnya sebagai berikut
 ## Hasil dari Praktikum
 ![Hasil Soal 10](./assets/first_deploy_db_vercel.png)
 Pada soal 10 (dari Modul 3) di sini sudah berhasil melakukan Deploy Project di Vercel. <br>
+
+## Laporan Praktikum - Soal 11
+
+## Hasil dari Praktikum
+![Hasil Soal 11](./assets/db_choices.png)
+![Hasil Soal 11](./assets/connect_DB_with_neon.png)
+Soal selanjutnya yaitu membuat Database dengan Postgres, akan tetapi dalam pilihannya tidak tersedia PostgreSQL, melainkan ada beberapa 3rd Party yang ditawarkan <br>
+Di sini yang dipilih adalah Neon sebagai Databasenya <br>
+Dan di akhir setelah DB dibuat isi pada Env Variables sebagai berikut 
+![Hasil Soal 11](./assets/env_variables_db.png)
+
+## Laporan Pratikum - Soal 12
+
+## Hasil dari Praktikum
+![Hasil Soal 12](./assets/dataseed_success.png)
+Pada soal ini mempelajari proses Database Seeding, pengisian data awal ke dalam database cloud yaitu Neon/Postgres dengan menggunakan skrip Node.js <br>
+Dalam hal ini juga diperlukan data.js dan seed.js yang berada pada folder src/seeder. Jika belum ada maka dibuat terlebih dahulu <br>
+Di sini juga saya menggunakan data dari Praktikum yang sudah di buat, sebagai contoh:
+- data.js berisikan sebagai berikut:
+![Hasil Soal 12](./assets/data_file.png)
+- seed.js berisikan sebagai berikut: (berisikan untuk membuat table dua tokoh scientist)
+![Hasil Soal 12](./assets/seed_file.png)
+<br>
+Di sini juga saya menggunakan uuid untuk melakukan generate unique ID untuk tiap orang (npm install uuid)
+
+## Laporan Praktikum - Soal 13
+
+## Hasil dari Praktikum
+![Hasil Soal 13](./assets/tables_neonDB.png)
+Soal terakhir pada modul berikut adalah menjelajah Database dan mempelajari Database Cloud tidak hanya bisa diakses melalui kode aplikasi
+tetapi juga bisa melalui GUI pada Neon SQL Editor pada Vercel. Jadi bisa memantau bahwa Database tersebut terupdate, dan juga memudahkan proses debug dan verifikasi hasil seeding data
+![Hasil Soal 13](./assets/SQLEditor_neonDB.png)

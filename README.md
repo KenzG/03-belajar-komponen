@@ -141,7 +141,7 @@ Di sini juga saya menggunakan data dari Praktikum yang sudah di buat, sebagai co
 - data.js berisikan sebagai berikut: <br>
 ![Hasil Soal 12](./assets/data_file.png)
 - seed.js berisikan sebagai berikut: (berisikan untuk membuat table dua tokoh scientist) <br>
-![Hasil Soal 12](./assets/seed_file.png)
+![Hasil Soal 12](./assets/seed_file.png) <br>
 Di sini juga saya menggunakan uuid untuk melakukan generate unique ID untuk tiap orang (npm install uuid)
 
 ## Laporan Praktikum - Soal 13

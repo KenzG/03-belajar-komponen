@@ -134,10 +134,10 @@ Dan di akhir setelah DB dibuat isi pada Env Variables sebagai berikut
 ## Laporan Pratikum - Soal 12
 
 ## Hasil dari Praktikum
-![Hasil Soal 12](./assets/dataseed_success.png)
+![Hasil Soal 12](./assets/dataseed_success.png) <br>
 Pada soal ini mempelajari proses Database Seeding, pengisian data awal ke dalam database cloud yaitu Neon/Postgres dengan menggunakan skrip Node.js <br>
 Dalam hal ini juga diperlukan data.js dan seed.js yang berada pada folder src/seeder. Jika belum ada maka dibuat terlebih dahulu <br>
-Di sini juga saya menggunakan data dari Praktikum yang sudah di buat, sebagai contoh:
+Di sini juga saya menggunakan data dari Praktikum yang sudah di buat, sebagai contoh: <br>
 - data.js berisikan sebagai berikut:
 ![Hasil Soal 12](./assets/data_file.png)
 - seed.js berisikan sebagai berikut: (berisikan untuk membuat table dua tokoh scientist)
@@ -148,7 +148,7 @@ Di sini juga saya menggunakan uuid untuk melakukan generate unique ID untuk tiap
 ## Laporan Praktikum - Soal 13
 
 ## Hasil dari Praktikum
-![Hasil Soal 13](./assets/tables_neonDB.png)
+![Hasil Soal 13](./assets/tables_neonDB.png) 
 Soal terakhir pada modul berikut adalah menjelajah Database dan mempelajari Database Cloud tidak hanya bisa diakses melalui kode aplikasi
 tetapi juga bisa melalui GUI pada Neon SQL Editor pada Vercel. Jadi bisa memantau bahwa Database tersebut terupdate, dan juga memudahkan proses debug dan verifikasi hasil seeding data
 ![Hasil Soal 13](./assets/SQLEditor_neonDB.png)
